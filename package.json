@@ -3,7 +3,7 @@
     "displayName": "Pencil Light Theme",
     "description": "A minimal distraction light theme",
     "publisher": "candle-smith",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.22.0"
     },

@@ -427,7 +427,7 @@
                 "meta.link.inline.markdown"
             ],
             "settings": {
-                "foreground": "#3a5647",
+                "foreground": "#599575",
                 "fontStyle": "italic"
             }
         },
