@@ -1,0 +1,29 @@
+{
+    "name": "hb_pencil",
+    "displayName": "Pencil Light Theme",
+    "description": "A minimal distraction light theme",
+    "publisher": "candle-smith",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "scripts": {
+        "local.install": "vsce package ./build && code --install-extension ./indigo-coal*.vsix"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Pencil",
+                "uiTheme": "vs",
+                "path": "./themes/hb-pencil-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "url": "https://github.com/acweathersby/pencil.git"
+    }
+}
