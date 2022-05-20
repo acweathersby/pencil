@@ -15,7 +15,7 @@
 
 <br/>
 
-![image](https://raw.githubusercontent.com/acweathersby/hb-pencil/master/media/preview.png)
+![image](https://raw.githubusercontent.com/acweathersby/pencil/master/media/preview.png)
     
 ### Have Any Problems?
 
