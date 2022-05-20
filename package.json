@@ -2,7 +2,7 @@
     "name": "pencil",
     "displayName": "Pencil Light Theme",
     "description": "A minimal distraction light theme",
-    "publisher": "candle-smith",
+    "publisher": "cinder-bytes",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.22.0"
