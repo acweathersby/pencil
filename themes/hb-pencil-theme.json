@@ -1,6 +1,6 @@
 {
     "$schema": "vscode://schemas/color-theme",
-    "type": "dark",
+    "type": "light",
     "colors": {
         //////////////////////////////////////////////////////
         //
@@ -41,15 +41,16 @@
         /**/ "dropdown.foreground": "#525252",
         /* Editor-------- */
         /**/ "editor.background": "#e6e6e6",
-        /**/ "editor.findMatchBackground": "#e6e6e6",
-        /**/ "editor.findMatchHighlightBackground": "#e6e6e6",
+        /**/ "editor.findMatchBackground": "#f2c029",
+        /**/ "editor.findMatchHighlightBackground": "#f2c02987",
         /**/ "editor.findMatchHighlightBorder": "#81818185",
         /**/ "editor.foreground": "#525252",
         /**/ "editor.lineHighlightBackground": "#0000000a",
-        /**/ "editor.selectionBackground": "#0000000a",
+        /**/ "editor.selectionBackground": "#00000015",
         /**/ "editor.snippetTabstopHighlightBackground": "#cc3c3c7e",
-        /**/ "editor.wordHighlightBackground": "#00000000",
+        /**/ "editor.wordHighlightBackground": "#fd000000",
         /**/ "editor.wordHighlightBorder": "#b5b5b5",
+        /**/ "editor.rangeHighlightBackground": "#f2c0292f",
         /* Editor Cursor------- */
         /**/ "editorCursor.background": "#ec4343",
         /**/ "editorCursor.foreground": "#ec4343",
@@ -63,12 +64,12 @@
         /* Editor Hint ------- */
         /**/ "editorHint.foreground": "#525252",
         /* Editor Inlay Hint ------- */
-        /**/ "editorInlayHint.foreground": "#aeaeae",
+        /**/ "editorInlayHint.foreground": "#969696",
         /**/ "editorInlayHint.background": "#aeaeae30",
-        /**/ "editorInlayHint.typeForeground": "#a864d397",
-        /**/ "editorInlayHint.typeBackground": "#aeaeae30",
-        /**/ "editorInlayHint.parameterForeground": "#a864d397",
-        /**/ "editorInlayHint.parameterBackground": "#aeaeae30",
+        /**/ "editorInlayHint.typeForeground": "#906aa0eb",
+        /**/ "editorInlayHint.typeBackground": "#aeaeae2a",
+        /**/ "editorInlayHint.parameterForeground": "#906aa0eb",
+        /**/ "editorInlayHint.parameterBackground": "#aeaeae2a",
         /* Editor Hover ------- */
         /**/ "editorHoverWidget.background": "#f1f1f1",
         /**/ "editorHoverWidget.border": "#c1c1c1",
@@ -89,7 +90,7 @@
         /* Editor Whitespace ------- */
         /**/ "editorWhitespace.foreground": "#52525264",
         /* Editor Widget ------- */
-        /**/ "editorWidget.background": "#c8c8c8",
+        /**/ "editorWidget.background": "#f6f6f6",
         /* Extension Button ------- */
         /**/ "extensionButton.prominentBackground": "#c8c8c8",
         /**/ "extensionButton.prominentHoverBackground": "#c8c8c8",
@@ -132,9 +133,9 @@
         /* Problems Error Icon ------- */
         /**/ "problemsErrorIcon.foreground": "#525252",
         /* Scrollbar Slider ------- */
-        /**/ "scrollbarSlider.activeBackground": "#9061f591",
-        /**/ "scrollbarSlider.background": "#e6e6e6",
-        /**/ "scrollbarSlider.hoverBackground": "#9061f56b",
+        /**/ "scrollbarSlider.activeBackground": "#f2c029",
+        /**/ "scrollbarSlider.background": "#d9d9d9",
+        /**/ "scrollbarSlider.hoverBackground": "#f2c029",
         /* Settings ------- */
         /**/ "settings.dropdownBackground": "#e6e6e6",
         /**/ "settings.dropdownBorder": "#32294d",
@@ -162,8 +163,8 @@
         /**/ "tab.inactiveForeground": "#7e7e7e",
         /**/ "tab.hoverForeground": "#575757",
         /* Terminal --------- */
-        /**/ "terminal.background": "#454545",
-        /**/ "terminal.foreground": "#cdcdcd",
+        /**/ "terminal.background": "#393939",
+        /**/ "terminal.foreground": "#e6e6e6",
         /* Text Link ------- */
         /**/ "textLink.activeForeground": "#e6662f",
         /**/ "textLink.foreground": "#35799c",
@@ -172,7 +173,6 @@
         /**/ "titleBar.activeForeground": "#6c6c6c",
         /* Panel --------- */
         /**/ "panel.border": "#c1c1c1",
-        "menu.selectionForeground": "#ff0000",
     },
     "semanticHighlighting": false,
     "semanticTokenColors": {
@@ -254,6 +254,7 @@
                 "support.constant.math",
                 "variable.language.special.self.python",
                 "variable.language.super",
+                "source.shell"
             ],
             "settings": {
                 "foreground": "#7c7c7c",
@@ -307,7 +308,7 @@
                 "meta.definition.property"
             ],
             "settings": {
-                "foreground": "#515151",
+                "foreground": "#333333",
                 "fontStyle": ""
             }
         },
@@ -315,13 +316,14 @@
             "name": "Calls",
             "scope": [
                 "entity.name.function",
+                "entity.name.function.macro",
                 "entity.name.function.call",
                 "meta.function-call",
                 "meta.function.call",
                 "markup.quote.markdown",
             ],
             "settings": {
-                "foreground": "#515151",
+                "foreground": "#333333",
                 "fontStyle": "italic"
             }
         },
@@ -363,7 +365,8 @@
                 "storage.type.template.argument",
                 "storage.type",
                 "storage.modifier",
-                "keyword.other.rust"
+                "keyword.other.rust",
+                "support.function.builtin"
             ],
             "settings": {
                 "foreground": "#8961d5",
@@ -505,6 +508,7 @@
                 "keyword.operator",
                 "operator",
                 "storage.type.function.arrow",
+                "punctuation.definition.variable"
             ],
             "settings": {
                 "foreground": "#939393",
@@ -521,7 +525,6 @@
         {
             "name": "Punctuation",
             "scope": [
-                "entity.name.function.macro",
                 "keyword.control.directive",
                 "markup",
                 "meta.arrow",
