@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.4]
+- Increase title bar contrast
+- Adjust snippet tabstop highlights
+
 ## [0.0.3]
 - Improve search highlighting 
 - Adjust scrollbar colors

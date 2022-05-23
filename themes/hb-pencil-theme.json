@@ -47,7 +47,7 @@
         /**/ "editor.foreground": "#525252",
         /**/ "editor.lineHighlightBackground": "#0000000a",
         /**/ "editor.selectionBackground": "#00000015",
-        /**/ "editor.snippetTabstopHighlightBackground": "#cc3c3c7e",
+        /**/ "editor.snippetTabstopHighlightBackground": "#ffbb0012",
         /**/ "editor.wordHighlightBackground": "#fd000000",
         /**/ "editor.wordHighlightBorder": "#b5b5b5",
         /**/ "editor.rangeHighlightBackground": "#f2c0292f",
@@ -170,7 +170,7 @@
         /**/ "textLink.foreground": "#35799c",
         /* Title Bar ------- */
         /**/ "titleBar.activeBackground": "#757575",
-        /**/ "titleBar.activeForeground": "#6c6c6c",
+        /**/ "titleBar.activeForeground": "#dfdfdf",
         /* Panel --------- */
         /**/ "panel.border": "#c1c1c1",
     },
