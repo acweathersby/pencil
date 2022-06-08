@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.0.5]
+- Improve keyword and punctuation contrast
+- Add transparency to scroll handles
+- Greatly increase editor error contrast
+
 ## [0.0.4]
 - Increase title bar contrast
 - Adjust snippet tabstop highlights
